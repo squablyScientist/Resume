@@ -1,5 +1,6 @@
 \documentclass{awesome-cv}
 \usepackage{multicol}
+\setlist{nosep}
 \name{Collin}{Tod}
 \position{Computer Science Student}
 \mobile{(203) 917-2537}
@@ -56,11 +57,13 @@
 		\end{cventries}
 
 	%2 Column Section
-	\begin{multicols*}{2}
+	\begin{multicols}{2}
 
+		%SKILLS
 		\cvsection{SKILLS}
 			\\\textbf{\textit{LANGUAGES}}
 			\begin{itemize}
+
 				%Languages that I am proficient in
 				\item \textbf{PROFICIENT}
 				\begin{itemize}
@@ -87,7 +90,33 @@
 				\item Vim
 				\item Tmux
 			\end{itemize}
+		\columnbreak
+		\cvsection{EXTRACURRICULAR}
+			\begin{cvhonors}
+				\cvhonor{Co-Captain}{Newtown High School Debate Team}{}{2014-2017}
+				\cvhonor{Treasurer}{Newtown High School Technology Team}{}{2015-2017}
+				\cvhonor{Member}{RIT AI Club}{}{2017}
+			\end{cvhonors}
+		\cvsection{COURSES}
+			\begin{cvhonors}
+				\cvhonor{CS50}{Harvard University}{}{2016}
+				\cvhonor{CSAPX}{Rochester Institute of Technology}{}{2017}
+			\end{cvhonors}
+		\cvsection{VOLUNTEERING}
+			\begin{cvhonors}
+				\cvhonor{Cameraman/Editor}{Newtown Board of Ed}{}{2014-2017}
+				\cvhonor{Video Creator}{Relay for Life}{}{2014}
+			\end{cvhonors}
 
-	\end{multicols*}	
 
+	\end{multicols}	
+
+	\cvsection{HONORS}
+		\begin{cvhonors}
+			\cvhonor{Honors Program}{Rochester Institute of Technology}{}{2017 - 2018}
+			\cvhonor{Presidential Scholarship}{Rochester Institute of Technology}{}{2017}
+			\cvhonor{RIT Computing Medal}{Rochester Institute of Technology}{}{2016}
+			\cvhonor{National Honor Society}{Newtown High School}{}{2015-2017}
+			\cvhonor{National Latin Award, Summa Cum Laude}{American Classical League}{}{2014-2017}
+		\end{cvhonors}
 \end{document}
