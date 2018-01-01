@@ -1,6 +1,9 @@
+%PREAMBLE
 \documentclass{awesome-cv}
 \usepackage{multicol, hyperref}
 \setlist{nosep}
+
+%PERSONAL INFORMATION (this will be included in the header)
 \name{Collin}{Tod}
 \position{Computer Science Student}
 \mobile{(203) 917-2537}
@@ -10,6 +13,10 @@
 \begin{document}
 	\makecvheader[L]
 
+	\makecvfooter
+		{\today}
+		{Collin Tod~~~~.~~~~Curriculum Vitae}
+		{}
 	%EDUCATION
 	\cvsection{EDUCATION}
 		\begin{cventries}
@@ -18,7 +25,7 @@
 				{Rochester Institute of Technology}
 				{Rochester, New York, United States}
 				{2017 - 2022}
-				{}
+				{Member of the RIT Honors Program}
 		\end{cventries}
 	
 	%WORK EXPERIENCE
@@ -28,21 +35,21 @@
 				{Coding Tutor}
 				{Newtown Board of Education}
 				{Newtown, Connecticut}
-				{Juky 2017 - August 2017}
-				{Spent four weeks tutoring fourth-fifth grade students how to program in Scratch.}
+				{July 2017 - August 2017}
+				{Spent four weeks tutoring fourth \& fifth grade students how to program in Scratch.}
 			\cventry
 				{Editor \& Cameraman}
 				{Newtown Board of Education}
 				{Newtown, Connecticut}
 				{August 2013 - July 2017}
-				{Filmed Board of Education meetings, city council meetings, and inter/intramural sports games.Edited resulting footage for later viewing.}
+				{Filmed Board of Education meetings, city council meetings, and inter/intramural sports games. Edited resulting footage for later viewing.}
 		\end{cventries}
 
 	%PROJECTS
 	\cvsection{PROJECTS}
 		\begin{cventries}
 			\cventry
-				{\href{https://github.com/squablyScientist/Pitman-Translator}github.com/squablyScientist/Pitman-Translator}
+				{\href{https://github.com/squablyScientist/Pitman-Translator}{github.com/squablyScientist/Pitman-Translator}}
 				{Pitman Shorthand Translator}
 				{2017}
 				{}
@@ -53,14 +60,14 @@
 				{Physics Program}
 				{2016}
 				{}
-				{A program that I wrote in high school to solve rudimentary physics problems for my AP physics class. Made in order to teach me better practices in Java. Built in Java}
+				{A program that I wrote in high school to solve rudimentary physics problems and learn better practices in Java for my AP physics class. Built in Java.}
 		\end{cventries}
-
+	\vspace{0.25cm}
 	%2 Column Section
 	\begin{multicols}{2}
 
 		%SKILLS
-		\cvsection{SKILLS}
+		\cvsection{SKILLS}\\
 			\\\textbf{\textit{LANGUAGES}}
 			\begin{itemize}
 
@@ -70,7 +77,7 @@
 					\item Java
 					\item Python
 					\item Bash
-					\item LaTeX		
+					\item \LaTeX		
 				\end{itemize}
 
 				%Languages that I am familiar with
@@ -88,32 +95,34 @@
 				\item Jetbrains products
 				\item Command Line
 				\item Vim
-				\item Tmux
 			\end{itemize}
 		\columnbreak
 		\cvsection{EXTRACURRICULAR}
+			\vspace*{-.25cm}
 			\begin{cvhonors}
 				\cvhonor{Co-Captain}{Newtown High School Debate Team}{}{2014-2017}
 				\cvhonor{Treasurer}{Newtown High School Technology Team}{}{2015-2017}
 				\cvhonor{Member}{RIT AI Club}{}{2017}
 			\end{cvhonors}
+			\vspace*{-.25cm}
 		\cvsection{COURSES}
+			\vspace*{-.25cm}
 			\begin{cvhonors}
 				\cvhonor{CS50}{Harvard University}{}{2016}
 				\cvhonor{CSAPX}{Rochester Institute of Technology}{}{2017}
 			\end{cvhonors}
+			\vspace*{-.25cm}
 		\cvsection{VOLUNTEERING}
+			\vspace*{-.25cm}
 			\begin{cvhonors}
 				\cvhonor{Cameraman/Editor}{Newtown Board of Ed}{}{2014-2017}
 				\cvhonor{Video Creator}{Relay for Life}{}{2014}
 			\end{cvhonors}
-
-
 	\end{multicols}	
-
+	\vspace*{-.5cm}
 	\cvsection{HONORS}
 		\begin{cvhonors}
-			\cvhonor{Honors Program}{Rochester Institute of Technology}{}{2017 - 2018}
+			\cvhonor{Honors Program}{Rochester Institute of Technology}{}{2017-2018}
 			\cvhonor{Presidential Scholarship}{Rochester Institute of Technology}{}{2017}
 			\cvhonor{RIT Computing Medal}{Rochester Institute of Technology}{}{2016}
 			\cvhonor{National Honor Society}{Newtown High School}{}{2015-2017}
