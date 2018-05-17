@@ -1,7 +1,7 @@
 %PREAMBLE
 \documentclass{awesome-cv}
 \usepackage{multicol, hyperref}
-\setlist{nosep}
+%\setlist{nosep}
 
 %PERSONAL INFORMATION (this will be included in the header)
 \name{Collin}{Tod}
@@ -37,8 +37,8 @@
 				{Newtown, Connecticut}
 				{July 2017 - August 2017}
 				{Spent four weeks tutoring fourth \& fifth grade students how to program in Scratch.}
-			% vspace and hspace to fix a weird indentation bug in awesome-cv
-			\vspace{0.2cm}	\hspace*{-0.1cm}\cventry
+				
+			\cventry
 				{Newtown Board of Education}
 				{Editor \& Cameraman}
 				{Newtown, Connecticut}
@@ -49,6 +49,13 @@
 	%PROJECTS
 	\cvsection{PROJECTS}
 		\begin{cventries}
+			\cventry
+				{\href{https://github.com/squablyScientist/Clades-Cimicum}{github.com/squablyScientist/Clades-Cimicum}}
+				{Clades Cīmicum}
+				{2018}
+				{}
+				{Translates to: 'Bane of Bugs'. Rudimentary debugger that can read arbitrary memory from any process running running on the current machine. Written in C}
+
 			\cventry
 				{\href{https://github.com/squablyScientist/Pitman-Translator}{github.com/squablyScientist/Pitman-Translator}}
 				{Pitman Shorthand Translator}
@@ -63,38 +70,36 @@
 				{}
 				{A program that I wrote in high school to solve rudimentary physics problems and learn better practices in Java for my AP physics class. Built in Java.}
 		\end{cventries}
-	\vspace{0.25cm}
 	%2 Column Section
 	\begin{multicols}{2}
 
 		%SKILLS
 		\cvsection{SKILLS}\\
 			\\\textbf{\textit{LANGUAGES}}
-			\begin{itemize}
+			\begin{itemize}[nosep]
 
 				%Languages that I am proficient in
 				\item \textbf{PROFICIENT}
-				\begin{itemize}
+					\begin{itemize}[nosep]
 					\item Java
 					\item Python
 					\item Bash
 					\item \LaTeX		
+					\item C
 				\end{itemize}
 
 				%Languages that I am familiar with
 				\item \textbf{ACTIVELY LEARNING}
-				\begin{itemize}
-					\item C
+					\begin{itemize}[nosep]
 					\item HTML/CSS
 					\item JavaScript
 				\end{itemize}
 			\end{itemize}
 				
 			\textbf{\textit{PROGRAMS / ENVIRONMENTS}}
-			\begin{itemize}
-				\item GNU/Linux
+			\begin{itemize}[nosep]
+				\item GNU/Linux and Unix-like systems
 				\item Jetbrains products
-				\item Command Line
 				\item Vim
 			\end{itemize}
 		\columnbreak
@@ -103,14 +108,15 @@
 			\begin{cvhonors}
 				\cvhonor{Co-Captain}{Newtown High School Debate Team}{}{2014-2017}
 				\cvhonor{Treasurer}{Newtown High School Technology Team}{}{2015-2017}
-				\cvhonor{Deputy}{RIT AI Club}{}{2017}
+				\cvhonor{Publicist}{RIT AI Club}{}{2018}
 			\end{cvhonors}
 			\vspace*{-.25cm}
 		\cvsection{COURSES}
 			\vspace*{-.25cm}
 			\begin{cvhonors}
 				\cvhonor{CS50}{Harvard University}{}{2016}
-				\cvhonor{CSAPX}{Rochester Institute of Technology}{}{2017}
+				\cvhonor{CSAPX}{RIT}{}{2017}
+				\cvhonor{Mech. of Programming}{RIT}{}{2018}
 			\end{cvhonors}
 			\vspace*{-.25cm}
 		\cvsection{VOLUNTEERING}
